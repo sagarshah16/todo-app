@@ -1,0 +1,95 @@
+.container{
+	display: block;
+	margin-right: 150px;
+    width: 400px;
+    height: 500px;
+    margin-left: 177px;
+
+}
+#heading{
+	text-align: center;
+}
+ul li input[type="text"]{
+	display: none;
+ 
+}
+.task{
+    margin-top: 5px;
+    margin-bottom:  1px;
+	padding-bottom: 1px;
+}
+
+.line{
+	margin-top: 7px;
+	border-color: black;
+}
+#TextInput{
+	margin-top: 12px;
+	margin-bottom: 15px;
+	width: 80%;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+}
+button:hover {
+  color: #0FC57C;
+  background: none;
+}
+
+
+ul {
+   list-style-type: none;
+}
+li > input[type="checkbox"] {
+  position: relative;
+  float: left;
+  }
+ li > label {
+ 	margin-left: 15px;
+ }
+ 
+ li > button{
+	float:right;
+}
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+#incomplete-tasks{
+	padding-left: 0px;
+}
+#completed-task{
+padding-left: 0px;
+text-decoration: line-through;
+  color: #888;
+}
+.delete{
+	clear:both;
+	margin-top: 3px;
+}
+
+ul li.editTask input[type="text"] {
+  display:block;
+ width: 70%;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
+  text-decoration:none;
+}
+
+ul li.editTask label {
+  display:none;
+}
